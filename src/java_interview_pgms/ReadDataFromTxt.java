@@ -1,7 +1,7 @@
 package java_interview_pgms;
-import java.io.FileReader;
+//import java.io.FileReader;
 import java.io.IOException;
-import java.io.BufferedReader;
+//import java.io.BufferedReader;
 import java.io.File;
 import java.util.Scanner;
 
@@ -40,6 +40,8 @@ public class ReadDataFromTxt {
 		
 		sc.useDelimiter("\\Z");
 		System.out.println(sc.next());
+
+		sc.close();
 	}
 
 }
